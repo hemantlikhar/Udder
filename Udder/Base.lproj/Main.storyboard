@@ -28,11 +28,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="ruB-si-IbX">
+                                <rect key="frame" x="0.0" y="602" width="414" height="260"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="260" id="97W-vY-75o"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ruB-si-IbX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="16Q-Kz-zvZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ruB-si-IbX" secondAttribute="bottom" id="4N7-Od-M4a"/>
                             <constraint firstItem="53J-gp-Vde" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="92p-Zf-Tcw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ruB-si-IbX" secondAttribute="trailing" id="Gyx-gV-sWr"/>
                             <constraint firstItem="z1l-Za-pBg" firstAttribute="centerX" secondItem="53J-gp-Vde" secondAttribute="centerX" id="Kcf-vv-xaS"/>
                             <constraint firstItem="53J-gp-Vde" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="aO1-nc-Qa1"/>
                             <constraint firstItem="z1l-Za-pBg" firstAttribute="top" secondItem="53J-gp-Vde" secondAttribute="bottom" constant="36" id="aex-DP-tH4"/>
@@ -46,6 +55,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="milk" width="800" height="630"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
